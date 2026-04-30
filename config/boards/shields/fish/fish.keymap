@@ -171,7 +171,7 @@
                         &kp Q       &kp W       &kp E       &kp R               &kp T      &kp Y       &kp U       &kp I       
 &kp ESC     &kp LSHFT   &kp A       &kp S       &kp D       &kp F               &kp G      &kp H       &kp J       &kp K       &kp O       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                      &kp B       &kp N       &kp M       &kp L       
-                                                &lt 1 SPACE   &kp RET           &tog 7      &none       
+                                                &kp SPACE   &mo 1               &tog 7     &kp RET       
             >;
         };
 

@@ -171,16 +171,16 @@
                         &kp Q       &kp W       &kp E       &kp R               &kp T      &kp Y       &kp U       &kp I       
 &kp ESC     &kp LSHFT   &kp A       &kp S       &kp D       &kp F               &kp G      &kp H       &kp J       &kp K       &kp O       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                      &kp B       &kp N       &kp M       &kp L       
-                                                &kp SPACE   &mo 1               &tog 7     &kp RET       
+                                                &lt 8 SPACE   &kp RET               &tog 7    &kp TAB       
             >;
         };
 
-        layer_extra_2 {
+        layer_game_math {
             bindings = <
-                        &none       &none       &none       &none               &none       &none       &none       &none       
-&none       &none       &none       &none       &none       &none               &none       &none       &none       &none       &none       &none       
-            &none       &none       &none       &none                                       &none       &none       &none       &none       
-                                                &none       &none               &none       &none       
+                        &kp N1      &kp N2      &kp N3      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
+&kp TILDE   &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
+            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
+                                                &none       &trans              &trans      &none 
             >;
         };
 
